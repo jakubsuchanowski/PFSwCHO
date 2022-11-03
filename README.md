@@ -1,8 +1,8 @@
 ## Build image
 ```
-docker build -t local/simple-web-app -f Dockerfile5 .
+docker build -t lab2.v1 -f Dockerfile5 .
 ```
 ## RUN CONTAINERS
 ```
-docker run -d --rm -p 8080:8080 --name simple-web-app local/simple-web-app
+docker run -d --rm -p 8080:8080 --name lab2 lab2.v1  
 ```
